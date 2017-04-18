@@ -1,0 +1,8 @@
+---
+# This playbook installs the AD Domain Controller role and configures the DC
+
+- name: Install ADDS
+  hosts: ADDS
+  tasks: 
+    - name: install ADDS
+      win_feature 
